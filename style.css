@@ -1,0 +1,45 @@
+body{
+  background: gray;
+  font-family: 'intro';
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container{
+  display: flex;
+
+}
+.box{
+  background:url("media/hielo.jpg");
+  display: inline-block;
+  background-size: cover;
+}
+.post{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+}
+.post:hover .post-s{
+  width: 300px;
+}
+p, h2{
+  color:white;
+}
+.post img {
+  display: block;
+  width: 300px;
+  height: 400px;
+}
+.post-s{
+  width: 0px;
+  height: 400px;
+  background: rgba(184, 161, 161, 0.68);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
