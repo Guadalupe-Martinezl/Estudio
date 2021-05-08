@@ -1,0 +1,13 @@
+{
+    "generoMusica": "pop",
+    "cantante": "harry styles",
+    "canciones": [
+        {
+            "nombre":"golden",
+            "duración":3,
+            "calificacion":5 
+        }
+    ]
+
+
+}
